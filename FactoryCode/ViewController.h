@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define INPUTLENGTH     (5)     //输入长度限制
+#define INPUTLENGTH     (5)     //输入字符长度限制
 
 @interface ViewController : UIViewController<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *inPutCode;
